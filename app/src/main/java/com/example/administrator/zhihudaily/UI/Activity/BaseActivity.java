@@ -1,4 +1,4 @@
-package com.example.administrator.zhihudaily;
+package com.example.administrator.zhihudaily.UI.Activity;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -6,6 +6,9 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.Toast;
+
+import com.example.administrator.zhihudaily.R;
 
 /**
  * Created by Administrator on 2017/5/18 0018.
@@ -40,6 +43,8 @@ public class BaseActivity extends AppCompatActivity{
 
 
     }
-
+    public void showToast(String content){
+        Toast.makeText(this,content,Toast.LENGTH_SHORT).show();
+    }
 
 }

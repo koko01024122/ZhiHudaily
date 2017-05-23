@@ -4,8 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.administrator.zhihudaily.HomeActivity">
+    tools:context="com.example.administrator.zhihudaily.UI.Activity.HomeActivity">
 <include layout="@layout/toolbar"/>
-
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/infolist"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
 
 </RelativeLayout>
